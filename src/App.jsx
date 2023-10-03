@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Input from './components/input'
 
 function App() {
 
   return (
     <>
       <div>
-        <h1>Currency Converter</h1>
+        <Input />
       </div>
     </>
   )

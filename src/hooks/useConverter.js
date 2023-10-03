@@ -13,7 +13,7 @@ export default function useConverter(currency) {
             .then((res) => setData(res[currency]));
     }, [currency]);
   
-  
+    
     return data;
 }
 
